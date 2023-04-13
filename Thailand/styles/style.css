@@ -20,3 +20,70 @@ main {
 #hero {
     margin: 20px 0;
 }
+
+#country {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+}
+
+#country div {
+    flex: 1;
+}
+
+.countryInfo h1 {
+    color: #0057d9;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.countryInfo h1 > span {
+    font-size: 1.2rem;
+    color: black;
+}
+
+#country p {
+    color: #4b4b4b;
+    font-size: 1.3rem;
+}
+
+.vistPlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fdf2f1;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.vistPlaces > div {
+    display: flex;
+}
+
+.vistPlaces i {
+    color: #ec8b88;
+    font-size: 2rem;
+}
+
+.tripPlan h3 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.bestPlaces {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.bestPlaces h2 {
+    font-size: 2.5rem;
+}
+
+i[class="fa-solid fa-arrow-right"] {
+    color: black;
+}
+
