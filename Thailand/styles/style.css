@@ -1,0 +1,22 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 97vw;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+#hero {
+    margin: 20px 0;
+}
