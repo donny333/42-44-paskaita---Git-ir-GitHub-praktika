@@ -57,4 +57,6 @@ div1.addEventListener('click', function() {
   div3.addEventListener('hover', function() {
     div1.classList.add = 'red';
   });
+
 }
+
