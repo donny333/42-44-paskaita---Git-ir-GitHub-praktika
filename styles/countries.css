@@ -212,3 +212,15 @@ i[class="fa-solid fa-arrow-right"] {
 .faro {
     background-image: url('../Portugal/images/faro.jpg');
 }
+.vancouver {
+    background-image: url('../Canada/images/vancouver.jpg');
+}
+.toronto {
+    background-image: url('../Canada/images/toronto.webp');
+}
+.montreal {
+    background-image: url('../Canada/images/montreal.jpg');
+}
+.quebec {
+    background-image: url(../Canada/images/Québec\ City.jpg);
+}
