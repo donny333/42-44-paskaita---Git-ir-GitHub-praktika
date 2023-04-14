@@ -1,6 +1,6 @@
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
-main {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,8 +24,10 @@ main {
 #country {
     display: flex;
     justify-content: center;
-    width: 80vw;
-    margin: auto;
+    gap: 20px;
+    width: 85vw;
+    margin: 20px auto;
+
 }
 
 #country div {
@@ -48,13 +50,17 @@ main {
     font-size: 1.3rem;
 }
 
+#country a {
+    text-decoration: none;
+    color: black;
+}
+
 .vistPlaces {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #fdf2f1;
     height: 100%;
-    padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -65,12 +71,15 @@ main {
 .vistPlaces i {
     color: #ec8b88;
     font-size: 2rem;
+    padding: 10px;
 }
 
 .tripPlan h3 {
     text-transform: uppercase;
     font-size: 0.8rem;
     text-align: center;
+    margin-bottom: 0;
+    /* padding: 10px; */
 }
 
 .bestPlaces {
@@ -80,10 +89,106 @@ main {
 }
 
 .bestPlaces h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px;
 }
 
 i[class="fa-solid fa-arrow-right"] {
     color: black;
+    padding: 10px;
 }
 
+/* Top sights */
+
+#topSights {
+    width: 85vw;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #dbdbdb;
+}
+
+#topSights > h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #121FCF;
+    margin-bottom: 30px;
+}
+
+.unmissablePlaces{
+    font-size: 3rem;
+    width: 60%;
+}
+
+.discoverMoreButton {
+    width: 40%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.discoverMoreButton button {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #4b4b4b;
+    background: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: 0.1s;
+}
+
+.discoverMoreButton button:hover {
+    background-color: #0057d9;
+    color: white;
+}
+
+.discoverMore {
+    display: flex;
+}
+
+/* cards */
+
+.card-container {
+    margin: 30px 30px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.card {
+    max-width: 300px;
+    min-width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.card span {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.bangkok {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/62baf0bb91f8ba58ef4a638a/Sunrise-with-Grand-Palace-of-Bangkok--Thailand/960x0.jpg?format=jpg&width=960');
+}
+
+.changMai {
+    background-image: url('https://a.cdn-hotels.com/gdcs/production9/d679/184d7edf-5c3a-470c-8529-b0085d6d5b0e.jpg?impolicy=fcrop&w=800&h=533&q=medium');
+}
+
+.ayuthaya {
+    background-image: url('https://lp-cms-production.imgix.net/2019-06/553153197_super.jpg');
+}
+
+.huaHin {
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/a0/35/b1/hua-hin-night-market.jpg?w=1200&h=-1&s=1');
+}
