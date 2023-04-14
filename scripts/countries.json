@@ -3,14 +3,20 @@
     {
     "image": "https://cdn.britannica.com/06/96306-050-DFE8AFDC/Khao-Tapu-Ao-Phang-na-Thailand-National-Park.jpg",
     "country": "Thailand",
-    "innerLink": "./Thailand/country.html"
+    "innerLink": "./Thailand/country.html",
+    "continent": "Asia",
+    "moreInfo": "Gleaming temples and golden Buddhas frame the landscapes in Thailand, serving as a stunning backdrop for tours of Bangkok noodle shacks and adventures along the luxurious coastline."
 },{
     "image": "https://www.diabetes.co.uk/wp-content/uploads/2019/01/portugal-1000x600.jpg",
     "country": "Portugal",
-    "innerLink": "./Portugal/country.html"
+    "innerLink": "./Portugal/country.html",
+    "continent":"Europe",
+    "moreInfo":"Medieval castles, cobblestone villages, captivating cities and golden beaches: the Portugal experience can be many things. History, great food and idyllic scenery are just the beginning."
 },{
     "image": "https://a.cdn-hotels.com/gdcs/production159/d204/01ae3fa0-c55c-11e8-9739-0242ac110006.jpg",
     "country": "Canada",
-    "innerLink": "./Canada/country.html"
+    "innerLink": "./Canada/country.html",
+    "continent": "North America",
+    "moreInfo": "Canada is more than its hulking-mountain, craggy-coast good looks: it also cooks extraordinary meals, rocks cool culture, and unfurls wild, moose-spotting road trips."
 }
 ]}
