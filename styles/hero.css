@@ -64,4 +64,7 @@ div.heroDiv {
     font-family: 'Roboto', sans-serif;
   }
   
- 
+  .heroDiv:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+  }
