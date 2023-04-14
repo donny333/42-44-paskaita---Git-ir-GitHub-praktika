@@ -9,7 +9,7 @@ export default class Country{
         this.divCard.classList.add('trips');
         
         this.countryLink = document.createElement('a');
-        // this.country.setAttribute('href');
+        this.country.setAttribute('href', );
 
         this.countryImage = document.createElement('img');
         this.countryImage.setAttribute('src', this.image);
