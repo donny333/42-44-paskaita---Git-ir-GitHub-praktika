@@ -122,6 +122,7 @@
 }
 #trips a{
     text-decoration: none;
+    cursor:pointer;
 }
 #trips a > div > img{
     width: 29vw;
