@@ -1,3 +1,5 @@
+export function addHeroSection() {
+
 let hero = document.querySelector('section#hero');
 const heroHeader = document.createElement('h1');
 const heroHeaderTekst = document.createTextNode(`Discover story-worthy travel moments`);
@@ -35,3 +37,24 @@ div3TextDiv.append(div3Text);
 div1.append(div1Image, div1TextDiv);
 div2.append(div2Image, div2TextDiv);
 div3.append(div3Image, div3TextDiv);
+
+div1.addEventListener('click', function() {
+    window.location.href = '#countries'; 
+  });
+  div2.addEventListener('click', function() {
+    window.location.href = '#countries'; 
+  });
+  div3.addEventListener('click', function() {
+    window.location.href = '#countries';
+  });
+
+  div1.addEventListener('hover', function() {
+    div1.classList.add = 'red'; 
+  });
+  div2.addEventListener('hover', function() {
+    div1.classList.add = 'red'; 
+  });
+  div3.addEventListener('hover', function() {
+    div1.classList.add = 'red';
+  });
+}
