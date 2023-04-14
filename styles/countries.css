@@ -20,10 +20,12 @@
 }
 
 #hero {
+    position: relative;
     background-color: black;
     width: 97vw;
     margin: auto;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 #country {
@@ -228,4 +230,8 @@ i[class="fa-solid fa-arrow-right"] {
 }
 .quebec {
     background-image: url(../Canada/images/Québec\ City.jpg);
+}
+
+.margin-top {
+    margin-top: 40px;
 }

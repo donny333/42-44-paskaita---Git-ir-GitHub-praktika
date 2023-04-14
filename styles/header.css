@@ -12,6 +12,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     z-index: 100;
+    margin-top: 20px;
 }
 
 
