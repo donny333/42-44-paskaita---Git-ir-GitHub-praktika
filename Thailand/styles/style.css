@@ -152,6 +152,7 @@ i[class="fa-solid fa-arrow-right"] {
 .card-container {
     margin: 30px 30px;
     display: flex;
+    justify-content: center;
     gap: 20px;
     
 }
