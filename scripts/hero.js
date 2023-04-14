@@ -42,10 +42,10 @@ div1.addEventListener('click', function() {
     window.location.href = '#countries'; 
   });
   div2.addEventListener('click', function() {
-    window.location.href = '#countries'; 
+    window.location.href = '#aboutUs'; 
   });
   div3.addEventListener('click', function() {
-    window.location.href = '#countries';
+    window.location.href = '#footer';
   });
 
   div1.addEventListener('hover', function() {
