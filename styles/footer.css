@@ -1,0 +1,121 @@
+.blueWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(0 87 217);
+    padding: 3rem 8rem;
+    color: #fff;
+}
+
+.blueWrapper a > i{
+    color: white;
+}
+
+.blueWrapper > div:last-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+
+
+/*                        Blue part finished                             */
+
+
+
+#end div.references{
+    display: flex;
+    gap: 25px;
+}
+
+.references a{
+    text-decoration: none;
+    color: #555;
+}
+
+.references ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#end .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+}
+
+input{
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 12px 35px;
+    color: black;
+    background: #fff;
+    margin-top: 15px;
+    border-color: grey;
+}
+
+#email button{
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 12px 35px;
+    color: black;
+    background: #fff;
+    margin-top: 15px;
+    border-color: grey;
+}
+
+/*                          Footer part finished                          */
+
+#black .copyRight{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+#email button:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+.subscribe > h2{
+    color:blue;
+}
+
+select{
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 12px 35px;
+    color: white;
+    background-color: black;
+    border-color: grey;
+}
+
+ #languages > option{
+    background-color: black;
+    color: white;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.copyRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select:hover{
+        background-color: white;
+        color: black;
+}
+
+/*                            Copy Right finished                        */
