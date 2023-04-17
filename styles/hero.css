@@ -53,10 +53,10 @@ div.heroDiv {
     position: absolute;
     text-align: center;
     color: rgb(241, 242, 232);
-    font-size: 6rem;
+    font-size: 5rem;
     justify-content: center;
     z-index: 100;
-    top:270px;
+    top:140px;
     line-height: 90px;
     margin:auto;
     padding:0px 150px 0px 150px;

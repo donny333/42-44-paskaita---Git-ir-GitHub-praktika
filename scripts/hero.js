@@ -19,7 +19,7 @@ const div1Image = document.createElement('img');
 const div2Image = document.createElement('img');
 const div3Image = document.createElement('img');
 
-div1Image.src ="https://lp-cms-production.imgix.net/2023-04/Versus-brittany-v-normandy-02.png?fit=crop&q=40&auto=format&w=600&h=800&dpr=2%22)";
+div1Image.src ="https://www.toeuropeandbeyond.com/wp-content/uploads/2022/02/Things-to-do-in-Normandy-1536x1024.jpg";
 div2Image.src ="https://lp-cms-production.imgix.net/2023-04/GettyImages-1176968565.jpg?fit=crop&q=40&auto=format&w=600&h=800&dpr=2";
 div3Image.src ="https://lp-cms-production.imgix.net/2023-04/ALV_0464_AlishaVasudev2023.jpg?fit=crop&q=40&auto=format&w=600&h=800&dpr=2";
 
@@ -35,6 +35,7 @@ div2TextDiv.append(div2Text);
 div3TextDiv.append(div3Text);
 
 div1.append(div1Image, div1TextDiv);
+div1.append(div1Image, div1TextDiv);
 div2.append(div2Image, div2TextDiv);
 div3.append(div3Image, div3TextDiv);
 
@@ -45,7 +46,7 @@ div1.addEventListener('click', function() {
     window.location.href = '#aboutUs'; 
   });
   div3.addEventListener('click', function() {
-    window.location.href = '#footer';
+    window.location.href = '#black';
   });
 
   div1.addEventListener('hover', function() {
@@ -59,4 +60,3 @@ div1.addEventListener('click', function() {
   });
 
 }
-
