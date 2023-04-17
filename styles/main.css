@@ -85,6 +85,7 @@
 /* ABOUT US END*/
 
 #countries{
+    position: relative;
     margin: 0 auto;
     padding: 4rem;
     width: 80vw;
@@ -170,3 +171,36 @@
     color: rgb(13, 212, 13);}
 
 section#countries > .modal>.modal-content > h1 {padding-left:0px;}
+
+/*  */
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background-color: white;
+    color: #0057d9;
+    z-index: 100;
+    /* opacity: 0.9; */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.modal button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #4b4b4b;
+    background: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: 0.1s;
+}
+
+.modal button:hover {
+    background-color: #0057d9;
+    color: white;
+}
