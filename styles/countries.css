@@ -1,5 +1,9 @@
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
