@@ -118,4 +118,12 @@ select:hover{
         color: black;
 }
 
+#email > p{
+    font-size: 10px;
+}
+
+.subscribe{
+    padding-right: 200px;
+}
+
 /*                            Copy Right finished                        */
