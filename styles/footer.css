@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    background-color: rgb(0 87 217);
+    background-color: #0057d9;
     padding: 3rem 8rem;
     color: #fff;
 }
@@ -78,12 +78,12 @@ input{
 }
 
 #email button:hover{
-    background-color: blue;
+    background-color: #0057d9;
     color: #fff;
 }
 
 .subscribe > h2{
-    color:blue;
+    color:#0057d9;
 }
 
 select{
@@ -111,6 +111,7 @@ select{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 6rem;
 }
 
 select:hover{
@@ -124,6 +125,20 @@ select:hover{
 
 .subscribe{
     padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
 }
 
+.text{
+    max-width: 450px;
+}
+
+/* #black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+} */
 /*                            Copy Right finished                        */
