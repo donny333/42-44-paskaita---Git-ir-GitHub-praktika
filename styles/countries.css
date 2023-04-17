@@ -179,6 +179,12 @@ i[class="fa-solid fa-arrow-right"] {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
+    transition: 0.3s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .card span {
