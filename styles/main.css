@@ -169,4 +169,4 @@
     font-size: 2rem;
     color: rgb(13, 212, 13);}
 
-section#countries > .modal>.modal-content > h1 {padding-left:0px;}
+.modal>.modal-content > h1 {padding-left:0px;}

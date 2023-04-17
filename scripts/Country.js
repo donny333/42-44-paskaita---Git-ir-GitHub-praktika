@@ -73,6 +73,6 @@ export default class Country {
       modal.appendChild(content);
   
       document.querySelector("section#countries").appendChild(modal);
-
+      modal.classList.add('modal');
     }
   }
