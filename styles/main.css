@@ -4,7 +4,16 @@
     --blueColor:#0057d9;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ABOUT US START*/
+
+@font-face {
+    font-family: TuskerGrotesk;
+    src: url("../fonts/TuskerGrotesk-2700Bold.otf") format("opentype");
+}
 
 #aboutUs{
     background-color: hwb(0 3% 96% / 0.5);
@@ -51,11 +60,13 @@
 }
 
 .aboutUsHeading > h1 {
-    font-size: 10rem;
+    font-family: 'TuskerGrotesk', serif;    
+    font-size: 15rem;
     margin: 0px;
 }
 
 .aboutUsHeading > h2{
+    font-family: 'TuskerGrotesk', serif;        
     font-size: 5rem;
     margin: 0px;
 }
@@ -168,7 +179,8 @@
 
 .message {
     font-size: 2rem;
-    color: rgb(13, 212, 13);}
+    color: #0057d9;
+}
 
 section#countries > .modal>.modal-content > h1 {padding-left:0px;}
 
