@@ -218,5 +218,6 @@ section#countries > .modal>.modal-content > h1 {padding-left:0px;}
 .modal button:hover {
     background-color: #0057d9;
     color: white;
+    cursor:pointer;
 }
 >>>>>>> main
