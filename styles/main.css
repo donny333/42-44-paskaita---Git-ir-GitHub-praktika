@@ -135,13 +135,24 @@
     width: 25vw;
     height: 352px;
     border-radius: 25px;
+    transition: 0.3s;
 }
+
+#trips img:hover {
+    transform: scale(1.01);
+    opacity: 0.9
+}
+
 #trips p{
     font-size: 1.5rem;
     color: black;
     font-weight: 700;
     margin-top: 5px;
     padding-left: 0;
+}
+
+#trips p:hover {
+    text-decoration: underline;
 }
 
 .cardInfo{
@@ -152,4 +163,9 @@
 }
 .fa-circle-question{
     font-size: 1.5rem;
+}
+
+.message {
+    font-size: 2rem;
+    color: rgb(13, 212, 13);
 }
