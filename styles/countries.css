@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth
 }
 
 #hero img {
@@ -34,7 +35,6 @@
     gap: 20px;
     width: 85vw;
     margin: 20px auto;
-
 }
 
 #country div {
@@ -114,6 +114,7 @@ i[class="fa-solid fa-arrow-right"] {
     margin-top: 50px;
     padding-top: 50px;
     border-top: 1px solid #dbdbdb;
+    transition: 1s;
 }
 
 #topSights > h3 {
@@ -132,13 +133,13 @@ i[class="fa-solid fa-arrow-right"] {
     color: #0057d9;
 }
 
-.discoverMoreButton {
+#discoverMoreButton {
     width: 40%;
     display: flex;
     flex-direction: column-reverse;
 }
 
-.discoverMoreButton button {
+#discoverMoreButton button {
     width: 180px;
     height: 30px;
     border: 1px solid #4b4b4b;
@@ -149,7 +150,7 @@ i[class="fa-solid fa-arrow-right"] {
     transition: 0.1s;
 }
 
-.discoverMoreButton button:hover {
+#discoverMoreButton button:hover {
     background-color: #0057d9;
     color: white;
 }
@@ -179,6 +180,12 @@ i[class="fa-solid fa-arrow-right"] {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
+    transition: 0.3s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .card span {
@@ -233,5 +240,11 @@ i[class="fa-solid fa-arrow-right"] {
 }
 
 .margin-top {
+    margin-top: 40px;
+}
+
+.message {
+    font-size: 2rem;
+    color: rgb(13, 212, 13);
     margin-top: 40px;
 }
