@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/countries.css" />
     <script
       src="https://kit.fontawesome.com/15afdb5639.js"
       crossorigin="anonymous"
     ></script>
     <script src="../scripts/homepage.js" type="module"></script>
+    <script src="../scripts/form.js" type="module"></script>
+
   </head>
   <body>
     <header>
@@ -43,7 +46,7 @@
         </div>
         <div class="tripPlan">
           <h3>start planning your trip</h3>
-          <a href="">
+          <a href="#topSights">
             <div class="vistPlaces">
               <i class="fa-solid fa-trophy"></i>
               <div class="bestPlaces">
@@ -61,7 +64,7 @@
           <div class="unmissablePlaces">
             <h2>Unmissable <span>places</span> for your itinerary</h2>
           </div>
-          <div class="discoverMoreButton">
+          <div id="discoverMoreButton">
             <button>Discover more places</button>
           </div>
         </div>
@@ -74,8 +77,99 @@
       </section>
 
       <footer>
-
-      </footer>
+        <section id="blue">
+            <div class="blueWrapper">
+                <div>
+                    <h1>#lonelyplanet</h1>
+                </div>
+                <div>
+                    <h3>FOLLOW LONELY PLANET:</h3>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="end">
+            <div class="footer">
+                <div class="subscribe">
+                    <h3>SUBSCRIBE</h3>
+                    <h2>Get 20% off our online shop.</h2>
+                    <form id="email">
+                        <input type="text" name="task" id="task" placeholder="Email address">
+                        <p>Subscribe to Lonely Planet newsletters and promotions. Read our <a href="#">Privacy Policy.</a></p>
+                        <button>Sign Up</button>
+                    </form>
+                </div>
+                <div class="references">
+                    <div>
+                        <h3>TOP DESTINATIONS</h3>
+                        <ul>
+                            <li><a href="#">New York City</a></li>
+                            <li><a href="#">Paris</a></li>
+                            <li><a href="#">Italy</a></li>
+                            <li><a href="#">Costa Rica</a></li>
+                            <li><a href="#">Japan</a></li>
+                            <li><a href="#">USA</a></li>
+                            <li><a href="#">Amsterdam</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>TRAVEL INTERESTS</h3>
+                        <ul>
+                            <li><a href="#">Adventure Travel</a></li>
+                            <li><a href="#">Art and Culture</a></li>
+                            <li><a href="#">Beaches, Coasts and Islands</a></li>
+                            <li><a href="#">Family Holidays</a></li>
+                            <li><a href="#">Festivals</a></li>
+                            <li><a href="#">Food and Drink</a></li>
+                            <li><a href="#">Honeymoon and Romance</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>SHOP</h3>
+                        <ul>
+                            <li><a href="#">Destination Guides</a></li>
+                            <li><a href="#">Lonely Planet Kids</a></li>
+                            <li><a href="#">Lonely Planet Shop</a></li>
+                            <li><a href="#">Non-English Guides</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>ABOUT US</h3>
+                        <ul>
+                            <li><a href="#">About Lonely Planet</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Press, Trade, and Advertising</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Work For Us</a></li>
+                            <li><a href="#">Write for Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="black">
+            <div class="copyRight">
+                <div class="text">
+                    © 2023 Lonely Planet, a Red Ventures company. All rights reserved. No part of this site may be
+                    reproduced without our written permission.
+                </div>
+                <div class="option">
+                    <h3>LANGUAGE</h3>
+                    <select name="languages" id="languages">
+                        <option value="English">English</option>
+                        <option value="English">Frencais</option>
+                        <option value="English">Deutch</option>
+                        <option value="English">Italiano</option>
+                        <option value="English">Espanol</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+    </footer>
     </main>
   </body>
 </html>

@@ -164,3 +164,8 @@
 .fa-circle-question{
     font-size: 1.5rem;
 }
+
+.message {
+    font-size: 2rem;
+    color: rgb(13, 212, 13);
+}
